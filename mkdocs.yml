@@ -1,0 +1,34 @@
+site_name: UI Toggle Documentation
+site_description: Documentation for the UI Toggle component on Community Content
+docs_dir: docs
+extra_css:
+  - stylesheets/extra.css
+theme:
+  palette:
+    scheme: slate
+    primary: blue
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - toc.integrate
+    - navigation.expand
+  font:
+      text: Lato
+      code: JetBrains Mono
+  
+nav:
+  - Documentation:
+    - index.md
+    
+
+  - Core Games:
+    - https://coregames.com
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - markdown.extensions.codehilite:
+      guess_lang: false
