@@ -1,5 +1,5 @@
-site_name: UI Toggle Documentation
-site_description: Documentation for the UI Toggle component on Community Content
+site_name: Social Kit Documentation
+site_description: Documentation for the Social Kit on Community Content
 docs_dir: docs
 extra_css:
   - stylesheets/extra.css
@@ -21,7 +21,24 @@ theme:
 nav:
   - Documentation:
     - index.md
-    
+    - quick-start.md
+    - Player Markers:
+      - player-markers/player-markers.md
+      - player-markers/add-hierarchy.md
+      - player-markers/bindings.md
+      - player-markers/settings.md
+    - Player Callouts:
+      - player-callouts/player-callouts.md
+      - player-callouts/add-hierarchy.md
+      - player-callouts/bindings.md
+      - player-callouts/creating-callouts.md
+      - player-callouts/settings.md
+    - Player Pokes:
+      - player-pokes/player-pokes.md
+      - player-pokes/add-hierarchy.md
+      - player-pokes/bindings.md
+      - player-pokes/creating-pokes.md
+      - player-pokes/settings.md
 
   - Core Games:
     - https://coregames.com
