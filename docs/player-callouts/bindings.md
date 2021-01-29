@@ -19,5 +19,3 @@ Here is a list of default key bindings.
 | `7` | Come here |
 | `8` | There is loot here |
 | `9` | I love cookies, all kinds of cookies.  Anyone else like cookies? |
-
-Callout `9` is an example of how you can customise the colors of the callout.  
